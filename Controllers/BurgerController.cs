@@ -56,7 +56,7 @@ namespace api.Controllers
         }
 
         [HttpPost]
-        // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([FromBody] BurgerCreateDto burgerDto)
         {
             try
@@ -73,7 +73,7 @@ namespace api.Controllers
 
         [HttpPut]
         [Route("{id}")]
-        // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] BurgerUpdateDto burgerDto)
         {
             try
@@ -93,7 +93,7 @@ namespace api.Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             try
