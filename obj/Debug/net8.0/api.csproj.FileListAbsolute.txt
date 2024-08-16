@@ -141,3 +141,4 @@ C:\Users\IG110398\Desktop\webapisunday\api\bin\Debug\net8.0\Microsoft.AspNetCore
 C:\Users\IG110398\Desktop\webapisunday\api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\IG110398\Desktop\webapisunday\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\IG110398\Desktop\webapisunday\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\IG110398\Desktop\webapisunday\api\obj\Debug\net8.0\api.sourcelink.json
